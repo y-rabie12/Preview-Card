@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![images/First-screenshot.jpg]()
+![Screenshot](/images/First-Screenshot.png)
 
 This is a screenshot of the final project after it is done.
 
