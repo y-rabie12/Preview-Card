@@ -35,7 +35,7 @@ This is a screenshot of the final project after it is done.
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://preview-card-frontend.netlify.app/](https://your-live-site-url.com)
+- Live Site URL: [](https://preview-card-frontend.netlify.app/)
 
 ## My process
 
