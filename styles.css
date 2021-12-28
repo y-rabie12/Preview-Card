@@ -1,0 +1,194 @@
+/****** Universal Selectors ******/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --very-dark-blue-main:hsl(217, 54%, 11%);
+    --very-dark-blue-card:hsl(216, 50%, 16%);
+    --very-dark-blue-line:  hsl(215, 32%, 27%);
+    --soft-blue:hsl(215, 51%, 70%);
+    --cyan:hsl(178, 100%, 50%);
+}
+
+
+body{
+    background-color:var(--very-dark-blue-main);
+}
+
+
+.line{
+    width:90%;
+    margin:0 auto;
+    border-color:var(--soft-blue);
+    margin-bottom:0.5rem;
+}
+
+/****** Card-Container Styling ******/
+
+.card-container{
+    background-color: var(--very-dark-blue-card);
+    width:50%;
+    max-width:370px;
+    margin:60px auto;
+    padding: 1rem;
+    border-radius: 10px;
+  
+}
+
+
+
+
+
+/****** Cube Image Styling ******/
+.cube-container{
+    display: block;
+    position:relative;
+    width:90%;
+    max-width:400px;
+    height:auto;
+    margin:0 auto;
+    border-radius:10px;
+    margin-bottom:1rem;
+}
+
+.cube-img{
+    width:100%;
+    height:100%;
+    border-radius:10px;
+}
+
+
+
+/****** Statistics Styling ******/
+
+.container{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:1rem;
+}
+
+.eth-container{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    padding:1rem;
+}
+
+.clock-container{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    padding:1rem;
+}
+
+
+
+.eth,.days{
+    font-family:'Outfit',sans-serif;
+    font-size:1rem;
+}
+
+.eth{
+    color:var(--cyan);
+    margin-left:0.5rem;
+}
+.days{
+    color:var(--soft-blue);
+    margin-left:0.5rem;
+    
+}
+
+
+/****** Avatar Styling ******/
+
+
+.avatar-container{
+    display:flex;
+    padding:1rem;
+}
+.avatar-img{
+    width:30px;
+    height:30px;
+    border: 2px white;
+    border-radius:5px;
+}
+
+.jules{
+   margin:5px 0 0 10px;
+}
+
+.jules-1:hover{
+    color:var(--cyan);
+}
+
+/****** Text Styling ******/
+
+
+h2,p,span{
+    font-family: 'Outfit', sans-serif;
+}
+
+h2{
+   color:hsl(0, 0%, 100%);
+   font-size: 1.2rem;
+   margin :  0 0 1rem 1rem;       /* top right bottom left*/
+}
+h2:hover{
+    color:var(--cyan);
+}
+
+p{
+   color: var(--soft-blue);
+   font-size:1rem;
+   margin: 0 0 1rem 1rem;
+}
+
+
+.overlay{
+   
+    position:absolute;
+    width:100%;
+    height:99%;
+    overflow: hidden;
+    border-radius:10px;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background-color:var(--cyan);
+    opacity:0;
+}
+
+.overlay img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.overlay:hover{
+    background-color: hsla(178, 100%, 50%,0.5);
+    opacity:1;
+}
+
+
+/****** Responsiveness ******/
+
+@media screen  and (max-width:540px){
+
+    .card-container{
+        width:90vw;
+    }
+}
+
+@media screen  and (min-width:600px){
+
+    .card-container{
+        width:100vw;
+    }
+}
+
